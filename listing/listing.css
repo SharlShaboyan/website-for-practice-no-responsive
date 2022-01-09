@@ -1,0 +1,108 @@
+.header {
+    height: 600px;
+    background-image: url(../images/heading-bg.jpg);
+}
+
+.header .title {
+    color: white;
+    font-size: 20px;
+    margin: 200px 0 0 100px;
+}
+
+.header .descr {
+    color: white;
+    font-size: 60px;
+    margin: 20px 0 0 100px;
+}
+
+.list-main {
+    width: 80%;
+    margin: 50px auto;
+    height: 1000px;
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 20px;
+    grid-template-columns: 30% 70%;
+}
+
+.dz {
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 0px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.list-main .left {
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.list-main .left a div {
+    background-color: #8d99af;
+    border-radius: 10px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.list-main .left a div p {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 55px;
+    font-size: 30px;
+}
+
+.list-main .left a div .circle-lis {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.list-main .left a div .circle-lis img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.list-main .right {
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.list-main .right .item-sl {
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.dots2 {
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+.dots2 a {
+    cursor: pointer;
+    margin: 5px;
+    color: grey;
+}
+
+.dots2 .dot11 {
+    color: black;
+}
+
